@@ -46,3 +46,12 @@
       - versionamento 0.2.11 (segundo numero - alteraçoes grandes e importantes)
         - versionamento 1.0.0 (primeiro numero - Após tudo concluído e está pronto para enviar para a master)
   - DOD Definition of Done: Critérios de Aceite (somente quando tudo estiver aprovado que fecha a versão e envia para a ramificação Master)
+
+  - git checkout -b dev (cria uma branch)
+  - git checkout master/main (mudar de branch)
+
+  ### Merge
+  Mescla de Branchs
+
+  - git fetch --all
+  - git merge master/main
