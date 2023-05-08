@@ -32,6 +32,7 @@
   - git add *
   - git commit -m "mensagem"
   - git push (envia as alterações direto para o GitHub)
+  - git pull (trás as alterações do GitHub para a Máquina)
 
   ## GitFlow
   Fluxo do Git
