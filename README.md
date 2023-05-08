@@ -28,6 +28,8 @@
   ## Commits
   Informação de alteração
   - após testado todo sei código
+  - git add *
+  - git commit -m "mensagem"
 
   ## GitFlow
   Fluxo do Git
