@@ -36,3 +36,13 @@
 
   ## GitFlow
   Fluxo do Git
+
+  ### Branchs
+  São ramificações / versões paralelas
+
+  - main / master
+  - develop
+    - versionamento 0.1.10 (terceiro numero - correções corriqueiras / bug)
+      - versionamento 0.2.11 (segundo numero - alteraçoes grandes e importantes)
+        - versionamento 1.0.0 (primeiro numero - Após tudo concluído e está pronto para enviar para a master)
+  - DOD Definition of Done: Critérios de Aceite (somente quando tudo estiver aprovado que fecha a versão e envia para a ramificação Master)
