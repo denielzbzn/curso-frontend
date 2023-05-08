@@ -30,6 +30,7 @@
   - após testado todo sei código
   - git add *
   - git commit -m "mensagem"
+  - git push (envia as alterações direto para o GitHub)
 
   ## GitFlow
   Fluxo do Git
