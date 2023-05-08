@@ -23,6 +23,7 @@
   ## Criar conta do GitHub
 
   ## Clonar o projeto
+  git clone https://github.com/denielzbzn/curso-frontend.git
 
   ## Commits
   Informação de alteração
