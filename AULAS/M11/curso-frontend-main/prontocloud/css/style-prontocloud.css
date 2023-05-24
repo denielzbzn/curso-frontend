@@ -63,6 +63,8 @@ p {
     color: #333;
 }
 
+
+
 ol {
     margin-left: 30px;
 }
@@ -129,3 +131,12 @@ footer small {
     font-size: 80%;
     display: block;
 }
+
+/* NÃO FUNCIONA */
+/*.cog-branding--minimal {
+    visibility: hidden !important;
+}
+
+.cog-branding__powered {
+    visibility: hidden !important;
+}*/
