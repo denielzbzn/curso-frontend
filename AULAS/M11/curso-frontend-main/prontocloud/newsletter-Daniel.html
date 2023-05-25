@@ -3,13 +3,96 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>ProntoCloud - Newsletter</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ProntoCloud - Newsletter</title> <!-- NEWSLETTER NÃO PODE TER UM CSS SEPARADO - PRECISA ESTAR DENTRO DO HTML -->
     <style>
         *{
             margin: 0 0 20px;
             padding: 0;
             border: 0;
         }
+
+        html {
+            font-size: 62,5%;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        
+        .button01 {
+            background-color: #385874;
+            display: block;
+            padding: 10px 5px 10px;
+            margin: 0  auto;
+            width: 300px;
+            height: 30px;
+            text-align: center;
+            margin-bottom: 20px;
+            border-radius: 10px;
+        }
+
+        .button02 {
+            font-size: 20px;
+            text-decoration: none;
+            color: #fff;
+        }
+
+        @media (max-width: 600px) {
+            table {
+                max-width: 100% !important;
+                min-width: 320px;
+            }
+
+            h1 {
+                font-size: 1.6rem;
+            }
+
+            .button01 {
+            background-color: #385874;
+            display: block;
+            padding: 10px 5px 10px;
+            margin: 0  auto;
+            width: 300px;
+            height: 30px;
+            text-align: center;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            }
+
+            .button02 {
+            font-size: 20px;
+            text-decoration: none;
+            color: #fff;
+            }
+            
+        }
+
+        @media (max-width: 375px) {
+        .button01 {
+            padding: 10px 0px 10px;
+            width: 250px;
+            height: 25px;
+            }
+
+            .button02 {
+            font-size: 18px;
+            }  
+        }
+
+        @media (max-width: 320px) {
+        .button01 {
+            padding: 10px 0px 10px;
+            width: 230px;
+            height: 20px;
+            }
+
+            .button02 {
+            font-size: 15px;
+            }  
+        }
+
     </style>
 </head>
 <body style="background-color: #f0f0f0;">
@@ -48,8 +131,11 @@
         </tr>
         <tr>
             <td colspan="3">
-                <span style="background-color: #385874; display: block; padding: 10px 5px 10px; margin: 0  auto; width: 300px; height: 30px; text-align: center;margin-bottom: 20px; border-radius: 10px;">
+                <!--<span style="background-color: #385874; display: block; padding: 10px 5px 10px; margin: 0  auto; width: 300px; height: 30px; text-align: center;margin-bottom: 20px; border-radius: 10px;">
                     <a style="font-size: 20px; text-decoration: none; color: #fff;" href="#">Conheça nossas soluções</a>
+                </span>-->
+                <span class="button01">
+                    <a class="button02" href="#">Conheça nossas soluções</a>
                 </span>
             </td>
         </tr>
