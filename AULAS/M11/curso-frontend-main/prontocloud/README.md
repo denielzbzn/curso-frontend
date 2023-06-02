@@ -34,3 +34,11 @@
 - Post para redes sociais: texto + foto + url curta
 - Incluir hospedagem (servidor web) 
 - Git - histórico de evolução (commits detalhados)
+
+
+### URL
+Uniform Resource Locator
+
+URL amigável para humanos e mecanismos de buscas [google, bing, yahoo!, etc...]
+
+Encurtadores de URL - para gerar links curtos
